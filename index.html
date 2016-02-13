@@ -5,32 +5,43 @@
   <title>Learn UX Wellington</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="codes/style.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,300' rel='stylesheet' type='text/css'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,300' rel='stylesheet' type='text/css'> -->
 </head>
 <body>
-  <div class="wrapper">
-    <h1>Learn UX Wellington</h1>
-    <h2>Interested in learning UX Design?</h2>
+  <header>
+    <a href="index.html"><img src="img/logo.png" class="logo" width="68px" height="79px"></a>
+    <a href="index.html"><h2>Learn.UX</h2></a>
+    <nav>
+     <!--  <a href="#" class="notification">Upcoming Classes</a> -->
+      <a href="teach.html">Teach</a>
+   <!--    <a href="#">Blog</a>
+      <a href="#">About</a> -->
+    </nav>
+  </header>
 
-    <p>We intend to teach UX design through a curriculum developed and taught by industry experts in Wellington. We focus on practical skills which can be immediately applied to industry.</p>
+  <div class="hero landing">
+    <h1>Learn User Experience Design face to face from Wellington's Experts</h1>
+  </div>
+
+  <section>
+   <p>We run UX workshops, lectures, and events here in wellington, to help upskill the local tech community. We focus on practical real world knowledge, taught by industry experts.</p>
+
     <p>If you want to know how to design fantastic digital experiences, we want to hear from you.</p>
-
-
-
-    <form method="post" action="https://wellyux.wufoo.com/forms/zn3f2w11warlks/#public">
-      <h2>Register your Interest</h2>
+  </section>
+  <section>
+     <form class="updates-form" method="post" action="https://wellyux.wufoo.com/forms/zn3f2w11warlks/#public">
+      <h4>Sign up for updates</h4>
 
       <p>What's your Email Address?</p>
-      <input id="Field1" name="Field1" type="email" required/>
+      <input id="Field1" name="Field1" type="email" placeholder="Email" required/>
 
       <p>Why do you want to learn UX Design?</p>
-      <textarea name="Field2" required></textarea>
+      <textarea name="Field2" placeholder="How would you use UX Design?" required></textarea>
       <button id="saveForm" name="saveForm" type="submit">Submit</button>
       
       <input type="hidden" id="idstamp" name="idstamp" value="d8nQE3h/UAv+5fgveGCtTzWwNKNlSt4gGnGnvCDJFbM=" />
     </form>
+  </section>
 
-
-  </div>
 </body>
 </html>

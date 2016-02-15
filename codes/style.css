@@ -51,7 +51,7 @@ header h2{
 }
 
 .notification::before{
-	content: '2';
+	content: '1';
     position: absolute;
     top: -12px;
     right: -26px;
@@ -96,6 +96,7 @@ section{
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 10px;
 	padding-bottom: 40px;
 	padding-top: 40px;
 }
@@ -160,6 +161,35 @@ textarea{
 	max-width: 400px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.register-interest h4{
+	margin-bottom: 0px;
+}
+
+.register-interest p{
+	margin-top: 0px;
+}
+
+.register-interest input, .register-interest textarea{
+	margin-top: 10px;
+}
+
+.g-70{
+	width: 65%;
+	float: left;
+}
+
+.g-30{
+	width: 35%;
+	float: left;
+	padding-left: 20px;
+}
+
+hr{
+	border: none;
+    background-color: #DADADA;
+    height: 1px;
 }
 
 

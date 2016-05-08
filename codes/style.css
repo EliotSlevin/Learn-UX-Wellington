@@ -193,6 +193,28 @@ hr{
     height: 1px;
 }
 
+.button{
+	padding: 20px;
+	background-color: #00acec;
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+
+.button:hover{
+	background-color: #0582B1;
+}
+
+
+#hype{
+	color: white;
+    background: rgba(0, 172, 236,0.9);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 3px;
+}
 
 @media only screen and (max-width: 800px)  {
  	.logo{

@@ -100,8 +100,12 @@ section{
 	padding: 10px;
 	padding-bottom: 40px;
 	padding-top: 40px;
+	overflow: hidden;
 }
 
+.past{
+	background-color: #333;
+}
 
 a{
 	transition: ease all 0.2s;
